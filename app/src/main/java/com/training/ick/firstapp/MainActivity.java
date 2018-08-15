@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         name=(EditText)findViewById(R.id.name);
         lastname=(EditText)findViewById(R.id.lastname);
 
+        
+
         btnName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
